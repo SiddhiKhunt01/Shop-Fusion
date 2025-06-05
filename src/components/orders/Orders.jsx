@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { clearOrders } from "../../redux/orderReducer";
 import { toast } from "react-toastify";
-import "./orders.css";
+import "./Orders.css";
 import Navbar from "../navbar/Navbar";
 
 const Orders = () => {
