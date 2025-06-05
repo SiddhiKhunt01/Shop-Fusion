@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { removeFromCart, clearCart } from "../../redux/cartReducer";
 import { placeOrder } from "../../redux/orderReducer";
 import { toast } from "react-toastify";
-import "./cart.css";
+import "./Cart.css";
 import Navbar from "../navbar/Navbar";
 
 const Cart = () => {
