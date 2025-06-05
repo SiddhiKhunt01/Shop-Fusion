@@ -5,7 +5,7 @@ import { auth } from "../../firebaseConfig";
 import { signOut } from "firebase/auth";
 import { toast } from "react-toastify";
 import { FaShoppingCart, FaUserCircle, FaBars, FaTimes } from "react-icons/fa";
-import "./navbar.css";
+import "./Navbar.css";
 
 const Navbar = () => {
     const cartItems = useSelector((state) => state.cart.items);
