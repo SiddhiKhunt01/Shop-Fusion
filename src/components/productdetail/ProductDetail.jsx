@@ -6,7 +6,7 @@ import { addToCart } from "../../redux/cartReducer";
 import { auth } from "../../firebaseConfig";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; 
-import "./productDetail.css";
+import "./ProductDetail.css";
 import Navbar from "../navbar/Navbar";
 
 const ProductDetail = () => {
