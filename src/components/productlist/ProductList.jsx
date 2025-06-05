@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { auth } from "../../firebaseConfig"; // Firebase Authentication
 import Navbar from "../navbar/Navbar";
-import "./productList.css";
+import "./ProductList.css";
 
 const ProductList = () => {
   const [products, setProducts] = useState([]);
